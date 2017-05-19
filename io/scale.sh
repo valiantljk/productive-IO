@@ -38,6 +38,7 @@ module load darshan/3.0.1
 #sleep 10
 
 printf "h5py:\n"
+module load python/2.7-anaconda
 module load h5py-parallel
 export LD_PRELOAD=/opt/cray/pe/mpt/7.4.4/gni/mpich-gnu/5.1/lib/libmpich.so:/usr/common/software/darshan/3.0.1/lib/libdarshan.so:$LD_PRELOAD
 #sbcast --compress=lz4 ./h5write.py /tmp/h5write.py
