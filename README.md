@@ -4,7 +4,8 @@
 
 
 # Quick Start on Cori
-  source test.sh 
+  1. cd file # or other folders
+  2. source test.sh 
 
 # About
 1. Each folder contains different category of test, e.g., file contains file related operation, e.g., 'file create'
